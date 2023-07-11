@@ -307,3 +307,46 @@ header {
 	line-height: 30px;
 	margin-bottom: 30px;
 }
+#footer {
+	height: 400px;
+	background: #111010;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	text-align: center;
+	color: #fff;
+}
+.footer-logo {
+	color: #e55473;
+	font-family: Lato;
+	font-size: 48px;
+	font-style: normal;
+	font-weight: 800;
+	line-height: normal;
+}
+.footer-logo span {
+	color: #fff;
+}
+.footer-container p {
+	display: flex;
+	width: 625px;
+	flex-direction: column;
+	flex-shrink: 0;
+	color: rgba(255, 255, 255, 0.9);
+	text-align: center;
+	font-family: Lato;
+	font-size: 18px;
+	font-style: normal;
+	font-weight: 400;
+	line-height: 30px;
+	margin: 25px 0;
+}
+.footer-container small {
+	color: rgba(255, 255, 255, 0.4);
+	text-align: center;
+	font-family: Lato;
+	font-size: 16px;
+	font-style: normal;
+	font-weight: 400;
+	line-height: normal;
+}
