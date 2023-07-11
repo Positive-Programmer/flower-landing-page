@@ -172,20 +172,55 @@ header {
 /****=====> offered section <====***/
 .offered {
 	border-radius: 8px;
-	margin-bottom: 100px;
+	margin: 100px 0;
+	padding: 50px 0;
 	background: rgba(229, 84, 115, 0.05);
 }
 .offered .container {
 	display: flex;
+	justify-content: space-between;
+	align-items: center;
 }
 .offered-content {
 	padding: 20px;
 	border-radius: 20px;
 	margin-top: 10px;
+	text-align: center;
 }
-.offered-image-box {
+/* .offered-image-box {
 	width: 50%;
 	background-image: url(../assets/pngwing08.png);
 	background-position: center center;
 	background-repeat: no-repeat;
+} */
+.offered-content h4 {
+	color: #e55473;
+	font-family: Ephesis;
+	font-size: 40px;
+	font-style: normal;
+	font-weight: 400;
+	line-height: normal;
+}
+.offered-content h2 {
+	color: #272727;
+	font-family: Lato;
+	font-size: 40px;
+	font-style: normal;
+	font-weight: 800;
+	line-height: normal;
+}
+.offered-content .body-text {
+	display: flex;
+	width: 594px;
+	flex-direction: column;
+	flex-shrink: 0;
+}
+
+.shop-btn {
+	display: inline-flex;
+	padding: 20px 43px;
+	align-items: flex-start;
+	gap: 10px;
+	border-radius: 15px;
+	background: #e55473;
 }
