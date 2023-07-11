@@ -171,12 +171,21 @@ header {
 
 /****=====> offered section <====***/
 .offered {
-	height: 60rem;
+	border-radius: 8px;
+	margin-bottom: 100px;
 	background: rgba(229, 84, 115, 0.05);
 }
+.offered .container {
+	display: flex;
+}
 .offered-content {
-	background-color: #e55473;
 	padding: 20px;
 	border-radius: 20px;
 	margin-top: 10px;
+}
+.offered-image-box {
+	width: 50%;
+	background-image: url(../assets/pngwing08.png);
+	background-position: center center;
+	background-repeat: no-repeat;
 }
