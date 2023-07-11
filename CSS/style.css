@@ -1,0 +1,182 @@
+/****=====> Global Styling <====***/
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 62.5%;
+}
+
+
+body {
+    font-family: 'Lato', sans-serif;
+}
+
+header {
+    background: rgba(229, 84, 115, 0.10);
+
+}
+
+/* 85 * 10 = 850px */
+.container {
+    width: 1170px;
+    margin: 0 auto;
+
+}
+
+/****=====> Header section Styling <====***/
+.header-content {
+    height: 75rem;
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 9.7rem;
+    justify-content: center;
+    align-items: center;
+}
+
+.primary-heading {
+    font-size: 6rem;
+    color: #272727;
+    font-family: Lato;
+    font-weight: 800;
+}
+
+.body-text {
+    color: rgba(39, 39, 39, 0.60);
+    font-size: 1.5rem;
+    font-family: Lato;
+    font-weight: 700;
+    line-height: 3rem;
+    margin: 3.2rem 0;
+
+}
+
+.btn {
+    display: inline-flex;
+    padding: 2rem 4.3rem;
+    align-items: flex-start;
+    gap: 1rem;
+    border-radius: 0.8rem;
+    border-color: #E55473;
+    background: #E55473;
+    color: #FFF;
+    font-size: 2rem;
+    font-family: Lato;
+    font-weight: 700;
+}
+
+.image-box {
+    height: 100%;
+    width: 100%;
+    background-image: url(../assets/pngwing10.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: bottom;
+}
+
+/****=====> Featured section Styling <====***/
+.section-heading {
+    text-align: center;
+    margin-top: 10rem;
+}
+
+.section-heading .body-text {
+    margin: 0 auto;
+    padding-top: 2.4rem;
+    color: rgba(39, 39, 39, 0.60);
+    text-align: center;
+    font-size: 18px;
+    font-family: Lato;
+    line-height: 30px;
+    display: flex;
+    width: 594px;
+    flex-direction: column;
+    flex-shrink: 0;
+}
+
+.section-title {
+    color: #272727;
+    font-size: 4rem;
+    font-weight: 800;
+
+}
+
+/****=====> section cards <====***/
+.cards {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 2.4rem;
+    justify-content: center;
+    align-items: center;
+    margin: 4rem 0;
+}
+
+.card-image {
+    height: 53.8rem;
+    border-radius: 300px 300px 0px 0px;
+
+}
+
+.card-one .card-image {
+    background: rgba(167, 33, 98, 0.15);
+    background-image: url(../assets/pngwing06.png);
+    background-repeat: no-repeat;
+    background-position: bottom;
+}
+
+.card-two .card-image {
+    background: rgba(5, 151, 160, 0.15);
+    background-image: url(../assets/pngwing05.png);
+    background-repeat: no-repeat;
+    background-position: bottom;
+}
+
+.card-three .card-image {
+    background: rgba(71, 125, 17, 0.15);
+    background-image: url(../assets/pngwing07.png);
+    background-repeat: no-repeat;
+    background-position: bottom;
+}
+
+.featured-card-title {
+    color: #272727;
+    text-align: center;
+    font-size: 24px;
+    font-family: Lato;
+    font-weight: 700;
+    line-height: 35px;
+    text-decoration-line: underline;
+    margin-top: 3.2rem;
+}
+
+/****=====> Call To Action <====***/
+.call-to-action {
+    margin-top: 8rem;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    border-radius: 0.8rem;
+    height: 25rem;
+    background: rgba(39, 39, 39, 0.05);
+}
+
+.cta-card h3 {
+    margin-top: 2.4rem;
+    color: rgba(39, 39, 39, 0.80);
+    text-align: center;
+    font-size: 2rem;
+    font-family: Lato;
+    font-weight: 600;
+    line-height: 35px;
+}
+
+/****=====> offered section <====***/
+.offered {
+    height: 60rem;
+    background: rgba(229, 84, 115, 0.05);
+}
